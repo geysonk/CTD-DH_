@@ -17,11 +17,6 @@
     
 }
 
-.mainFormAlert{
-    background-color: #c50a0a;
-    
-}
-
 .inputNome {
     display: flex;  
     position: absolute;
@@ -33,8 +28,8 @@
     height: 50px;
     border-radius: 5px;
     background: #353535;
-
-    border: none;       
+    color:#FFFFFF66;
+    border: none;    
 }
 
 .inputCor {
@@ -47,7 +42,8 @@
     align-items: center;
     height: 50px;
     border-radius: 5px;
-    background: #353535;    
+    background: #353535;
+    color:#FFFFFF66;    
     border: none;       
 }
 
@@ -55,8 +51,8 @@
     position: absolute;
     width: 300px;
     height: 50px;
-    left: 100px;
-    top: 75px;
+    left: 105px;
+    top: 90px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900px;
@@ -69,8 +65,8 @@
     position: absolute;
     width: 300px;
     height: 50px;
-    left: 500px;
-    top: 75px;
+    left: 505px;
+    top: 90px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900px;
@@ -95,3 +91,4 @@
     line-height: 30px;
     color: #FFFFFF;
 }
+

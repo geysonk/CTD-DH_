@@ -6,8 +6,7 @@ import "./App.css"
 function App() {
 
   const [nomeCor, setNomeCor] = useState("")
-  const [corRGB, setCorRGB] = useState("")
-  const [alert, setAlert] = useState("")
+  const [corHex, setCorHex] = useState("")
 
 
 
@@ -20,10 +19,10 @@ function App() {
 
         <Form
           nomeCor={nomeCor}
-          corRGB={corRGB}
+          corHex={corHex}
           paletaCor={paletaCor}
           setNomeCor={setNomeCor}
-          setCorRGB={setCorRGB}
+          setCorHex={setCorHex}
           setPaletaCor={setPaletaCor}
         />
 
