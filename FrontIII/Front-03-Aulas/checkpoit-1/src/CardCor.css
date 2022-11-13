@@ -1,0 +1,44 @@
+*{ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainCard{
+
+    position: relative;
+    width: 380px;
+    height: 180px;
+    top: 527px;
+    border: none;
+    border-radius: 12px;
+    object-fit: cover;
+
+
+}
+.titulo{
+
+    margin-left: 50px;
+    padding-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.mainCard h2{
+
+    position: absolute;
+    width: 165.94px;
+    height: 48px;
+    left: 34.71px;
+    top: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+}
+
